@@ -22,7 +22,7 @@ plt.show()
 ```
 
 ### Results
-![Skill Demand Percent](images\skill_demand_percent.png)
+![Skill Demand Percent](images/skill_demand_percent.png)
 
 
 ### Insights
@@ -40,7 +40,7 @@ ticks_x = plt.FuncFormatter(lambda y, pos: f'${int(y/1000)}k')
 plt.gca().xaxis.set_major_formatter(ticks_x)
 plt.show()
 ```
-![Salary Distribution of Data Jobs in the US](images\output.png)
+![Salary Distribution of Data Jobs in the US](images/output.png)
 *Box plot Visualizing the salary distribution for the to 6 data job titles.*
 
 ### Insights
